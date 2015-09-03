@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/chenlan/android/mymap/app/libs/android_api_1.1_forsdk.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="610ab8a4952cfec5cc008a697790e21dec7b8d3a">
+        <dex dex="/home/chenlan/android/mymap/app/build/intermediates/pre-dexed/debug/android_api_1.1_forsdk-de5e2d1c287edae3d73c8ed91eead25e67c713d5.jar" />
+    </item>
+    <item
+        jar="/home/chenlan/androidTools/luna/android-sdk-linux/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/home/chenlan/android/mymap/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-b89dbdb464da9fc44bfc653ded943e455a7a07f9.jar" />
+    </item>
+    <item
+        jar="/home/chenlan/android/mymap/app/libs/BaiduLBS_Android.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="7214ffe71cffc50e5c23653be9c762b15c351f74">
+        <dex dex="/home/chenlan/android/mymap/app/build/intermediates/pre-dexed/debug/BaiduLBS_Android-41b345d628b40a2fe507e446f93a4395b7b5d4a6.jar" />
+    </item>
+    <item
+        jar="/home/chenlan/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/1.6/596daefa34b9ea58eac9677b23325b7e60eae948/gson-1.6.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="596daefa34b9ea58eac9677b23325b7e60eae948">
+        <dex dex="/home/chenlan/android/mymap/app/build/intermediates/pre-dexed/debug/gson-1.6-4f10c5d8ab35ce37086e24937c4674874e77b07b.jar" />
+    </item>
+    <item
+        jar="/home/chenlan/android/mymap/app/libs/xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="/home/chenlan/android/mymap/app/build/intermediates/pre-dexed/debug/xUtils-2.6.14-998eb06826162bb9c640a18064c4cd6990be7120.jar" />
+    </item>
+    <item
+        jar="/home/chenlan/android/mymap/app/libs/galaxy_mini.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="58de9ecfba229dbb2c3eb3f45dbe284ba58100ea">
+        <dex dex="/home/chenlan/android/mymap/app/build/intermediates/pre-dexed/debug/galaxy_mini-5a6d1e97886c4930e0652a1bc909e65dd3fc9b11.jar" />
+    </item>
+
+</items>

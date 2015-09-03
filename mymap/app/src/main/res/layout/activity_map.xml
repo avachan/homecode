@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.baidu.mapapi.map.MapView
+                android:id="@+id/BigMapView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:clickable="true" />
+
+            <EditText
+                android:id="@+id/Et_Conaddress"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:background="#40000000"
+                android:gravity="left|center_vertical"
+                android:hint="请输入您需要的位置"
+                android:paddingLeft="10dp"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/Btn_Search"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:text="查询" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Et_Conaddress"
+                android:layout_marginTop="-5dp" />
+
+            <TextView
+                android:id="@+id/Tv_Longitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="djfkdfkdkjf"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/Tv_Latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:visibility="gone" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/Lv_ListView"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="#40FF4500" />
+</RelativeLayout>
